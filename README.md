@@ -27,6 +27,8 @@ To enable the agent, create a `.env` file in the repository root, next to `docke
 ```dotenv
 # Required: your Moonshot API key. It is passed only to the backend.
 KIMI_API_KEY=your_moonshot_api_key
+# If you are using kimi-coding subscription then use next base url:
+# KIMI_BASE_URL=https://api.kimi.ai/coding/v1
 
 # Optional: these are the default values.
 KIMI_BASE_URL=https://api.moonshot.ai/v1
